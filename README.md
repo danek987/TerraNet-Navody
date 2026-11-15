@@ -7,7 +7,7 @@ Na jednej úlohe **Pridať blokovú schému** si vyskúšame, ako prevziať zada
 
 ## Úlohy tímu v ClickUpe
 
-<details>
+<details markdown="block">
 <summary><strong>Založ priestor TerraNet</strong> · pre človeka, ktorý nastavuje projekt</summary>
 
 1. V bočnom paneli klikni na **+ Create → Space**.
@@ -32,7 +32,7 @@ Na jednej úlohe **Pridať blokovú schému** si vyskúšame, ako prevziať zada
 
 </details>
 
-<details>
+<details markdown="block">
 <summary><strong>Zadaj úlohu a priraď riešiteľa</strong> · Pridať blokovú schému</summary>
 
 1. V zozname klikni na **+ Add Task** a zadaj názov **Pridať blokovú schému**. V popise uveď výsledok, ktorý má riešiteľ odovzdať:
@@ -51,7 +51,7 @@ Na jednej úlohe **Pridať blokovú schému** si vyskúšame, ako prevziať zada
 
 </details>
 
-<details>
+<details markdown="block">
 <summary><strong>Začni pracovať</strong> · presuň kartu do In Progress</summary>
 
 1. V zobrazení **List** vidíš úlohy, riešiteľov a termíny pod sebou.
@@ -72,7 +72,7 @@ Na jednej úlohe **Pridať blokovú schému** si vyskúšame, ako prevziať zada
 
 ## Prvá zmena na GitHube
 
-<details>
+<details markdown="block">
 <summary><strong>Založ repozitár</strong> · preskoč, ak už tím repozitár má</summary>
 
 1. Vpravo hore klikni na **+ → New repository**.
@@ -87,7 +87,7 @@ Na jednej úlohe **Pridať blokovú schému** si vyskúšame, ako prevziať zada
 
 </details>
 
-<details>
+<details markdown="block">
 <summary><strong>Vytvor vetvu a ulož zmenu</strong> · docs/blokova-schema</summary>
 
 1. V karte **Code** otvor výber vetvy **main**. Napíš `docs/blokova-schema` a klikni na možnosť vytvorenia tejto vetvy z `main`. Pred úpravou skontroluj, že je vybratá nová vetva.
@@ -118,7 +118,7 @@ Na jednej úlohe **Pridať blokovú schému** si vyskúšame, ako prevziať zada
 
 </details>
 
-<details>
+<details markdown="block">
 <summary><strong>Otvor pull request a daj zmenu skontrolovať</strong></summary>
 
 1. Prejdi na **Pull requests** a klikni na **Compare & pull request**. Ak sa výzva nezobrazuje, použi **New pull request**.
@@ -137,7 +137,7 @@ Na jednej úlohe **Pridať blokovú schému** si vyskúšame, ako prevziať zada
 
 </details>
 
-<details>
+<details markdown="block">
 <summary><strong>Zlúč zmenu do main</strong> · po kontrole</summary>
 
 1. Otvor kartu **Conversation**. Keď je zmena skontrolovaná a GitHub umožní zlúčenie, klikni na **Merge pull request** a potvrď **Confirm merge**. Ak vidíš **Resolve conflicts**, pokračuj podľa [postupu pri konflikte](#konflikt-v-readme) a potom sa vráť sem.
@@ -154,7 +154,7 @@ Na jednej úlohe **Pridať blokovú schému** si vyskúšame, ako prevziať zada
 
 ## Konflikt v README
 
-<details>
+<details markdown="block">
 <summary><strong>Vyrieš konflikt v prehliadači</strong> · otvor iba pri hlásení o konflikte</summary>
 
 Konflikt môže vzniknúť, keď niekto upraví rovnakú časť `README.md` aj na vetve `main`. GitHub potrebuje, aby ste rozhodli, ako má výsledný text vyzerať.
@@ -179,7 +179,7 @@ Konflikt môže vzniknúť, keď niekto upraví rovnakú časť `README.md` aj n
 
 ## Dokončenie úlohy v ClickUpe
 
-<details>
+<details markdown="block">
 <summary><strong>Pridaj výsledok a zavri kartu</strong></summary>
 
 1. V úlohe **Pridať blokovú schému** pridaj komentár. Napíš „Schéma je v `README.md` na vetve `main`.“ Prilož adresu zlúčeného pull requestu, aby sa spolužiaci vedeli dostať k zmene.
@@ -194,3 +194,5 @@ Konflikt môže vzniknúť, keď niekto upraví rovnakú časť `README.md` aj n
 
 </details>
 
+
+</details>
