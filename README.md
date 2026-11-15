@@ -194,19 +194,3 @@ Konflikt môže vzniknúť, keď niekto upraví rovnakú časť `README.md` aj n
 
 </details>
 
-## Ďalšie cvičenie pre tri skupiny
-
-<details>
-<summary><strong>Rozdeľte prvý skúšobný prenos</strong> · ukážkové úlohy do ClickUpu</summary>
-
-Na stretnutí si dohodnite formát skúšobnej správy, napríklad `uzol-01,42`. V ClickUpe založte tri úlohy. Ku každej doplňte jedného riešiteľa, termín a podmienku dokončenia.
-
-| Skupina | Úloha | Hotovo, keď |
-| --- | --- | --- |
-| Elektrikári | Zdokumentovať zapojenie skúšobného uzla | Pri úlohe je fotka alebo schéma použitého zapojenia s označenými pripojeniami. |
-| Firmvér ESP32 | Odoslať skúšobný údaj | Prijímač zobrazí dohodnutú správu s ID uzla a skúšobnou hodnotou. |
-| Web a databáza | Uložiť prijatý údaj | Skupina vie ukázať uložený záznam s časom prijatia, ID uzla a hodnotou. Príjem a uloženie môže najprv skúsiť so vzorovou správou. |
-
-Na ďalšom stretnutí si ukážte cestu jednej správy od odoslania po uložený záznam.
-
-</details>
