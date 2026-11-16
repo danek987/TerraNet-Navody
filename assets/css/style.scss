@@ -15,6 +15,18 @@
   --border: #38414d;
 }
 
+:root[data-theme="light"] {
+  color-scheme: light;
+  --page: #ffffff;
+  --panel: #f6f8fa;
+  --panel-hover: #eaeef2;
+  --text: #1f2328;
+  --muted: #57606a;
+  --link: #0969da;
+  --link-hover: #0550ae;
+  --border: #d0d7de;
+}
+
 body {
   background: var(--page);
   color: var(--text);
@@ -36,10 +48,31 @@ body {
 }
 
 .markdown-body a:focus-visible,
-.markdown-body summary:focus-visible {
+.markdown-body summary:focus-visible,
+.markdown-body .theme-toggle:focus-visible {
   outline: 2px solid var(--link);
   outline-offset: 4px;
   border-radius: 3px;
+}
+
+.markdown-body .theme-toggle {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  margin: 0 0 12px auto;
+  padding: 0;
+  color: var(--text);
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 23px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.markdown-body .theme-toggle:hover {
+  background: var(--panel-hover);
 }
 
 .markdown-body h1,
