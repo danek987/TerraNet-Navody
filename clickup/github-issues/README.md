@@ -132,6 +132,12 @@ Na stránke integrácie otvor **Personal → Connect** a dokonči prihlásenie d
 
 Nové Issue môžeš vytvoriť priamo z tasku cez **GitHub → Add GitHub link → New GitHub Issue**.
 
+![Výber New GitHub Issue v paneli Add GitHub link](../../snimky/clickup-github/nove-issue-Screenshot_3.png)
+
+Vyplň názov a popis, vyber repozitár a prípadne riešiteľa. Potom klikni na **Create**.
+
+![Formulár Create New GitHub Issue](../../snimky/clickup-github/nove-issue-Screenshot_4.png)
+
 Pri pull requeste, vetve alebo commite môže integrácia priradiť aktivitu automaticky podľa ID ClickUp úlohy v tvare `CU-…`. ID skopíruj z GitHub panela tasku a použi ho napríklad v popise pull requestu. V tasku potom skontroluj **Activity**.
 
 </details>
@@ -142,6 +148,11 @@ Pri pull requeste, vetve alebo commite môže integrácia priradiť aktivitu aut
 <summary><strong>Prepoj opravu s Issue a dokonči úlohu</strong></summary>
 
 Ak pull request rieši Issue v rovnakom repozitári, do jeho popisu pridaj napríklad `Closes #4`. Číslo nahraď číslom vášho Issue. Po zlúčení do predvolenej vetvy GitHub toto Issue automaticky uzavrie.
+
+Na snímke GitHub po napísaní `Closes #` ponúka existujúce Issue. Vyber správne číslo a skontroluj, že v popise je napríklad `Closes #4`. Potom vytvor pull request.
+
+![Výber Issue číslo 4 po napísaní Closes v popise pull requestu](../../snimky/clickup-github/pull-request-closes.png)
+
 
 Do úlohy v ClickUpe vlož odkaz na pull request a po overení výsledku ju uzavri. Pre kontrolu zmeny použi [návod na review](../../github/review/README.md).
 

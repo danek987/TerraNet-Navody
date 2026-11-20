@@ -20,10 +20,12 @@
 
 - [Záznamy zo stretnutí](stretnutia/README.md) – dohody a ďalšie kroky tímu.
 
+<!--
 ## Pôvodné podklady
 
 - [Zemný senzor parametrov pôdy (PDF)](podklady/zemny-senzor-parametrov-pody.pdf) – návrh sondy a postup skúšok.
 - [TerraGuard – projektová dokumentácia (DOCX)](podklady/terraguard-projektova-dokumentacia.docx) – návrh vonkajšej meracej stanice.
+-->
 
 ## Odkazy
 

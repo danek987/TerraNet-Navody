@@ -163,3 +163,15 @@ body {
 .markdown-body .text-gray {
   color: var(--muted) !important;
 }
+
+.markdown-body details {
+  counter-reset: terranet-step;
+}
+
+.markdown-body details > ol > li {
+  counter-increment: terranet-step;
+}
+
+.markdown-body details > ol > li::marker {
+  content: counter(terranet-step) ". ";
+}
