@@ -8,8 +8,9 @@
 
 - **GitHub**
   - [Prvá zmena na GitHube](github/README.md)
-  - [Inštalácia a nastavenie Gitu pre VS Code](github/git-vscode/README.md)
+  - [Inštalácia a nastavenie Gitu](github/git-vscode/README.md)
   - [Pripojenie VS Code ku GitHubu](github/vscode-github/README.md)
+  - [GitHub v PyCharme](github/pycharm-github/README.md)
   - [Kontrola a oprava pull requestu](github/review/README.md)
 - **ClickUp**
   - [Prvá úloha v ClickUpe](clickup/README.md)

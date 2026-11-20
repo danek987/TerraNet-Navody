@@ -2,50 +2,74 @@
 permalink: /github/git-vscode/
 ---
 
-# Inštalácia a nastavenie Gitu pre VS Code
+# Inštalácia a nastavenie Gitu
 
 [Späť na návody pre GitHub](../README.md) · [Úvod TerraNetu](../../README.md)
 
-Tento postup je pre Windows. VS Code má zabudované ovládanie Gitu a používa Git nainštalovaný v počítači.
+Postup pre Windows pred prvou prácou vo VS Code alebo PyCharme. Git nainštaluješ do počítača a editor ho potom používa. Kroky rozbaľuj postupne.
 
-## 1. Nainštaluj Git
+<details markdown="block">
+<summary><strong>1. Nainštaluj Git a over verziu</strong></summary>
 
-Stiahni a spusti inštalátor z [Git for Windows](https://git-scm.com/install/win). Ak sa inštalátor pýta na použitie Gitu z príkazového riadka, ponechaj možnosť, ktorá Git sprístupní aj ostatným programom.
+Stiahni a spusti inštalátor z [Git for Windows](https://git-scm.com/install/win). Pri voľbe použitia z príkazového riadka ponechaj možnosť sprístupniť Git aj ostatným programom.
 
-Ak už používaš `winget`, v PowerShelli môžeš namiesto inštalátora spustiť:
+Ak používaš `winget`, môžeš inštaláciu spustiť z PowerShellu:
 
 ```powershell
 winget install --id Git.Git -e --source winget
 ```
 
-Po inštalácii úplne zatvor VS Code a znova ho otvor. V **Terminal → New Terminal** spusti:
+Po inštalácii zatvor a znova otvor editor. Vo VS Code otvor **Terminal → New Terminal** a zadaj:
 
 ```powershell
 git --version
 ```
 
-Ak sa zobrazí číslo verzie, VS Code má k Gitu prístup. Ak terminál príkaz nepozná ani po reštarte VS Code, skús ho v novom PowerShelli. Ak chýba aj tam, skontroluj inštaláciu Git for Windows.
+![Terminál VS Code vypisuje verziu nainštalovaného Gitu](../../snimky/ide/Screenshot_3.png)
 
-## 2. Nastav meno a e-mail pre commity
+Číslo verzie potvrdzuje, že editor vie Git spustiť. Ak príkaz nepozná ani po reštarte editora, over ho v novom PowerShelli a skontroluj inštaláciu Gitu.
 
-V termináli VS Code spusti tieto príkazy so svojimi údajmi:
+</details>
+
+<details markdown="block">
+<summary><strong>2. Nastav svoje meno a e-mail</strong></summary>
+
+Do terminálu zadaj nasledujúce príkazy. Text v úvodzovkách nahraď vlastnými údajmi:
 
 ```powershell
 git config --global user.name "Tvoje meno"
 git config --global user.email "SEM_VLOZ_SVOJ_EMAIL"
 ```
 
-Použi e-mail overený v účte GitHub. Ak chceš osobnú adresu skryť z histórie commitov, skopíruj presnú adresu `noreply` zo svojho účtu v **GitHub → Settings → Emails**. Meno a e-mail označujú autora commitu. Prihlásenie ku GitHubu prebehne samostatne pri práci s repozitárom.
+![Nastavenie mena a e-mailu autora commitov v termináli](../../snimky/ide/Screenshot_4.png)
 
-`--global` nastaví predvolené údaje pre tvoje repozitáre na tomto počítači. Ak chceš odlišné údaje iba pre jeden projekt, otvor jeho priečinok a použi `git config --local user.name "Tvoje meno"` a `git config --local user.email "TVÔJ_E-MAIL"`.
+Použi e-mail overený v účte GitHub alebo presnú adresu `noreply` z **GitHub → Settings → Emails**. Na snímke je ukážková adresa, pri cvičení doplň vlastnú.
 
-## 3. Over nastavenie
+Tieto údaje sa zapíšu k novým commitom ako autor. Ku GitHubu sa následne prihlásiš cez prehliadač.
+
+`--global` nastaví predvolené údaje pre tvoj používateľský účet v počítači. Pre konkrétny projekt môžeš v jeho priečinku použiť `--local`:
+
+```powershell
+git config --local user.name "Tvoje meno"
+git config --local user.email "SEM_VLOZ_SVOJ_EMAIL"
+```
+
+</details>
+
+<details markdown="block">
+<summary><strong>3. Skontroluj nastavenie a vyber editor</strong></summary>
+
+V termináli spusti:
 
 ```powershell
 git config --get user.name
 git config --get user.email
 ```
 
-Keď terminál vypíše správne údaje, pokračuj [pripojením VS Code ku GitHubu](../vscode-github/README.md).
+![Výpis nastaveného mena a e-mailu v termináli](../../snimky/ide/Screenshot_5.png)
 
-[VS Code – prvé kroky s Gitom](https://code.visualstudio.com/docs/sourcecontrol/quickstart) · [GitHub – nastavenie e-mailu pre commity](https://docs.github.com/en/account-and-profile/how-tos/email-preferences/setting-your-commit-email-address)
+Keď vidíš svoje údaje, pokračuj [návodom pre VS Code](../vscode-github/README.md) alebo [návodom pre PyCharm](../pycharm-github/README.md).
+
+</details>
+
+[VS Code – nastavenie Gitu](https://code.visualstudio.com/docs/sourcecontrol/quickstart) · [GitHub – e-mail pre commity](https://docs.github.com/en/account-and-profile/how-tos/email-preferences/setting-your-commit-email-address)

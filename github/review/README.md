@@ -8,11 +8,15 @@ permalink: /github/review/
 
 Autor otvoril pull request z vetvy `docs/blokova-schema` do `main`. Spolužiak pri kontrole zistí, že schéma končí príjmom správy a chýba krok uloženia.
 
-## 1. Autor požiada o kontrolu
+<details markdown="block">
+<summary><strong>1. Autor požiada o kontrolu</strong></summary>
 
 Otvor pull request, do popisu napíš, čo sa mení a čo má spolužiak overiť. V časti **Reviewers** vyber spolužiaka s prístupom do repozitára alebo mu pošli odkaz na pull request.
 
-## 2. Spolužiak pridá pripomienku
+</details>
+
+<details markdown="block">
+<summary><strong>2. Spolužiak pridá pripomienku</strong></summary>
 
 1. Otvor **Files changed** a porovnaj nový text s pôvodným.
 2. Pri príslušnom riadku klikni na **+** a napíš, čo má autor upraviť. Napríklad „Za centrálu doplň krok uloženia prijatej hodnoty.“
@@ -24,7 +28,10 @@ Otvor pull request, do popisu napíš, čo sa mení a čo má spolužiak overiť
 
 4. Odošli kontrolu cez **Submit review**, aby ju autor videl.
 
-## 3. Autor opraví tú istú vetvu
+</details>
+
+<details markdown="block">
+<summary><strong>3. Autor opraví tú istú vetvu</strong></summary>
 
 1. V **Code** vyber `docs/blokova-schema`, otvor `README.md` a doplň krok uloženia.
 2. Sprav commit priamo do `docs/blokova-schema`. Ak pracuješ vo VS Code, po commite použi **Push**. Nový commit sa zobrazí v tom istom pull requeste.
@@ -33,3 +40,5 @@ Otvor pull request, do popisu napíš, čo sa mení a čo má spolužiak overiť
 Spolužiak skontroluje opravu v **Files changed** a po vyriešení pripomienky môže dať **Approve**. Potom môže člen tímu s príslušnými právami dokončiť zlúčenie, keď to GitHub povolí.
 
 [GitHub – ako kontrolovať pull request](https://docs.github.com/en/pull-requests/get-started/reviewing-pull-requests-quickstart) · [Ako spracovať pripomienky](https://docs.github.com/en/pull-requests/concepts/resolving-reviews)
+
+</details>
