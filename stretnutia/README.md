@@ -16,7 +16,7 @@ permalink: /stretnutia/
 - Na ďalšom stretnutí prejsť návrh systému, aktuálny postup a ďalšie úlohy.
 
 
-## Zápis zo strenutia 24.11.2026
+## Stretnutie 24.11.2026
 - Prešli sme možnosti využitia LoRa a ďalší postup v projekte.
 - Pripraviť predbežnu blokovú schému systému. Podľa rozhodnutia má zahŕňať buď dva senzory komunikujúce cez LoRa, alebo jedno zariadenie so SIM kartou.
 - Dohodneme termín a miesto prezenčného stretnutia.
