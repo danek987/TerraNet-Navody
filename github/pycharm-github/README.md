@@ -8,6 +8,8 @@ permalink: /github/pycharm-github/
 
 Postup od stiahnutia tímového repozitára po odoslanie zmeny a aktualizáciu projektu. Pred začiatkom [nainštaluj Git a nastav meno s e-mailom](../git-vscode/README.md). Tím ti pridelí prístup do repozitára. V PyCharme over Git cez **Settings → Version Control → Git → Test**.
 
+Ak pracuješ priamo cez príkazy Gitu, pozri [návod na Git v termináli](../terminal/README.md).
+
 <details markdown="block">
 <summary><strong>1. Naklonuj repozitár a prihlás sa</strong></summary>
 

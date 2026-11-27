@@ -17,11 +17,25 @@ V prehliadači pridáš blokovú schému do spoločného repozitára. Vytvoríš
 
    ![Otvorená ponuka GitHubu s vyznačenou položkou New repository](../snimky/Screenshot_18.png)
 
-2. Ako názov zadaj **TerraNet**. Pre tímovú ukážku vyber **Private**, zapni **Add README** a klikni na **Create repository**. Ak bude pracovať viac ľudí, pozvi ich cez nastavenia repozitára a nechaj ich pozvánky prijať.
+2. Ako názov zadaj **TerraNet**. Pre tímovú ukážku vyber **Private**, zapni **Add README** a klikni na **Create repository**.
 
-   ![Formulár s názvom TerraNet, súkromnou viditeľnosťou a zapnutým README](../snimky/Screenshot_19.png)
+   ![Zvýraznené polia Repository name, Private a Add README v ukážkovom repozitári](../snimky/github-ukazka/06a_novy_repozitar.png)
 
    [GitHub Docs – prvý repozitár](https://docs.github.com/en/get-started/using-github/hello-world)
+
+</details>
+
+<details markdown="block">
+<summary><strong>Pozvi spolužiakov do repozitára</strong> · pre vlastníka osobného repozitára</summary>
+
+1. Otvor repozitár a prejdi na jeho **Settings → Collaborators** v časti **Access**.
+2. Klikni na **Add people**, vyhľadaj GitHub meno spolužiaka a potvrď pozvánku.
+
+   ![Nastavenia prístupu do súkromného repozitára a tlačidlo Add people](../snimky/github-ukazka/06b_collaborators.png)
+
+3. Spolužiak prijme pozvánku a overí, či vidí tímový repozitár.
+
+[GitHub Docs – pozvanie spolupracovníkov](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/repository-access-and-collaboration/inviting-collaborators-to-a-personal-repository)
 
 </details>
 
@@ -84,11 +98,15 @@ V prehliadači pridáš blokovú schému do spoločného repozitára. Vytvoríš
 
 2. Po hlásení o úspešnom zlúčení otvor **Code → main → README.md** a skontroluj, že schéma je na hlavnej vetve. Skopíruj adresu zlúčeného pull requestu pre úlohu v ClickUpe.
 
-   ![GitHub potvrdzuje, že pull request bol zlúčený a uzavretý](../snimky/Screenshot_33.png)
+   ![Stav Merged a potvrdenie o zlúčení a uzavretí pull requestu](../snimky/github-ukazka/12b_merged.png)
+
+   ![Bloková schéma zobrazená v README na hlavnej vetve main](../snimky/github-ukazka/13_vysledok.png)
 
    [GitHub Docs – zlúčenie pull requestu](https://docs.github.com/en/get-started/using-github/hello-world)
 
 </details>
+
+Ak chceš tú istú zmenu robiť na počítači, použi [návod na Git v termináli](terminal/README.md).
 
 ## Konflikt v README
 

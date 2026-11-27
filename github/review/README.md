@@ -23,7 +23,7 @@ Na GitHube otvor **Compare & pull request**, zvoľ cieľovú vetvu `main` a svoj
 1. Otvor pull request a kartu **Files changed**.
 2. Pri riadku, ku ktorému chceš niečo napísať, klikni na modré **+**.
 
-![Modré plus na pridanie pripomienky k riadku](../../snimky/review/Screenshot_46.png)
+![Karta Files changed a modré plus na pridanie pripomienky k riadku](../../snimky/github-ukazka/11a_files_changed.png)
 
 3. Napíš konkrétnu pripomienku. Napríklad „Odstráň tento prázdny riadok.“ Cez **Start a review** ju pridaj do rozpracovanej kontroly.
 

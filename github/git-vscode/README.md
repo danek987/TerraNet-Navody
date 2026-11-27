@@ -8,6 +8,8 @@ permalink: /github/git-vscode/
 
 Postup pre Windows pred prvou prácou vo VS Code alebo PyCharme. Git nainštaluješ do počítača a editor ho potom používa. Kroky rozbaľuj postupne.
 
+Ak pracuješ priamo cez príkazy Gitu, pozri [návod na Git v termináli](../terminal/README.md).
+
 <details markdown="block">
 <summary><strong>1. Nainštaluj Git a over verziu</strong></summary>
 

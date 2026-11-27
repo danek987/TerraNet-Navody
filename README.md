@@ -9,6 +9,7 @@
 - **GitHub**
   - [Prvá zmena na GitHube](github/README.md)
   - [Inštalácia a nastavenie Gitu](github/git-vscode/README.md)
+  - [GitHub cez terminál alebo SSH](github/terminal/README.md) – klonovanie, vetva, commit a push.
   - [Pripojenie VS Code ku GitHubu](github/vscode-github/README.md)
   - [GitHub v PyCharme](github/pycharm-github/README.md)
   - [Kontrola a oprava pull requestu](github/review/README.md)

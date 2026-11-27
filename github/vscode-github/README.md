@@ -8,6 +8,8 @@ permalink: /github/vscode-github/
 
 Stiahneš repozitár, vytvoríš pracovnú vetvu a odošleš prvú zmenu. Pred začiatkom [nastav Git](../git-vscode/README.md) a pri súkromnom repozitári prijmi pozvánku. Na snímkach je ukážkový repozitár TerraNet, použi adresu svojho tímu.
 
+Ak pracuješ priamo cez príkazy Gitu, pozri [návod na Git v termináli](../terminal/README.md).
+
 <details markdown="block">
 <summary><strong>1. Vyber repozitár a prihlás sa</strong></summary>
 
